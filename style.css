@@ -137,7 +137,7 @@ table {
 
 body,
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Source Sans Pro","Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 13px;
   color: #40484f;
   font-weight: 400;
@@ -262,7 +262,7 @@ section .location {
 
 #header h1.name {
   font-size: 3rem;
-  font-weight: 100;
+  font-weight: 900;
   line-height: 100%;
 }
 
@@ -279,7 +279,7 @@ section .location {
 }
 
 .main-summary {
-  background: #fefff1;
+  background: #fdfdfd;
   padding: 1em 1em;
   margin-top: 0rem;
 }
@@ -291,11 +291,11 @@ section .location {
 .section-title {
   display: inline-block;
   padding: 0 1em 0.3em 0;
-  color: #195f88;
+  color: #0b752e;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
 }
 
 .section > header {
@@ -309,7 +309,7 @@ section .location {
 .section > header::after {
   position: absolute;
   left: 0;
-  top: 0.7em;
+  top: 1.6em;
   height: 1px;
   background: #ccc;
   content: "";
@@ -360,6 +360,10 @@ section .location {
 .language,
 .name {
   font-weight: 600;
+}
+
+.position{
+  font-size: 1.2rem;
 }
 
 .company::before,
