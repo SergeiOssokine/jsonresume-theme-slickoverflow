@@ -224,7 +224,7 @@ section .location {
 }
 
 #header {
-  text-align: center;
+  text-align: left;
 }
 
 #header > div {
@@ -279,7 +279,7 @@ section .location {
 }
 
 .main-summary {
-  background: #f1f8ff;
+  background: #fefff1;
   padding: 1em 1em;
   margin-top: 0rem;
 }
@@ -290,7 +290,6 @@ section .location {
 
 .section-title {
   display: inline-block;
-  background: #fff;
   padding: 0 1em 0.3em 0;
   color: #195f88;
   text-transform: uppercase;
